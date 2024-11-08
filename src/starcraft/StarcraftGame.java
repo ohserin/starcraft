@@ -15,8 +15,12 @@ public class StarcraftGame {
 
 		Tank tank = new Tank();
 		SCV scv = new SCV();
-		tank.hp = 30;
+		DropShip drop = new DropShip();
+		tank.hp = 70;
+		drop.flying();
 		
-		scv.repair(tank);
+		
+//		scv.repair(tank);
+		scv.attack(tank);
 	}
 }
