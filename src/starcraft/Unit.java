@@ -1,12 +1,12 @@
 package starcraft;
 
-abstract public class Unit {
+public class Unit {
 
-	final int MAX_HP;
-	int hp;
-	String name;
+	protected final int MAX_HP;
+	protected int hp;
+	protected String name;
 
-	Unit(String name, int hp) {
+	protected Unit(String name, int hp) {
 		MAX_HP = hp;
 		this.hp = hp;
 		this.name = name;
