@@ -1,10 +1,7 @@
 package starcraft;
 
-public class GroundUnit {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+abstract class GroundUnit extends Unit {
+	protected GroundUnit(String name, int hp) {
+		super(name, hp);
 	}
-
 }

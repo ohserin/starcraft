@@ -1,10 +1,10 @@
 package starcraft;
 
-public class AirUnit {
+abstract class AirUnit extends Unit {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	protected AirUnit(String name, int hp) {
+		super(name, hp);
 	}
 
+	abstract void flying();
 }
