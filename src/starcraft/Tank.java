@@ -2,6 +2,6 @@ package starcraft;
 
 public class Tank extends GroundUnit implements Repairable {
 	public Tank() {
-		super("Tank", 30);
+		super("Tank", 80);
 	}
 }

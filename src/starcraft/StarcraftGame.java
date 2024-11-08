@@ -15,6 +15,8 @@ public class StarcraftGame {
 
 		Tank tank = new Tank();
 		SCV scv = new SCV();
-		tank.hp = 10;
+		tank.hp = 30;
+		
+		scv.repair(tank);
 	}
 }
