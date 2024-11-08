@@ -2,7 +2,7 @@ package starcraft;
 
 public class SCV extends GroundUnit implements Repairable {
 
-	protected SCV(String name, int hp) {
+	SCV() {
 		super("scv", 90);
 	}
 

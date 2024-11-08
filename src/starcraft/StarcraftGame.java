@@ -13,22 +13,8 @@ public class StarcraftGame {
 
 	public void run() {
 
-		interface Repairable {
-
-		}
-		
-		abstract class Unit {
-			final int MAX_HP;
-			int hp;
-			String name;
-			
-			Unit(String name, int hp) {
-				MAX_HP = hp;
-				this.hp = hp;
-				this.name = name;
-				
-				System.out.println(name + "의 탄생");
-			}
-		}
+		Tank tank = new Tank();
+		SCV scv = new SCV();
+		tank.hp = 10;
 	}
 }
