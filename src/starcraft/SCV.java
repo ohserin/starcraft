@@ -30,7 +30,7 @@ public class SCV extends GroundUnit implements Repairable {
 			
 			while(target.hp > 0) {
 				target.hp --;
-				String msg = String.format("%s가 %s를 공격 [%d/%d]",target.name, name, target.hp, target.MAX_HP);
+				String msg = String.format("%s가 %s를 공격 [%d/%d]",name, target.name, target.hp, target.MAX_HP);
 				System.out.println(msg);
 
 				try {

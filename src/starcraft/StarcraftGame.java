@@ -14,13 +14,18 @@ public class StarcraftGame {
 	public void run() {
 
 		Tank tank = new Tank();
+		Marine marine = new Marine();
 		SCV scv = new SCV();
 		DropShip drop = new DropShip();
-		tank.hp = 70;
+		tank.hp = 20;
 		drop.flying();
 		
 		
 //		scv.repair(tank);
-		scv.attack(tank);
+//		scv.attack(tank);
+//		tank.attack(scv);
+//		marine.attack(tank);
+		drop.attack(scv);
+		
 	}
 }
