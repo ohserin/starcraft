@@ -1,5 +1,4 @@
 package starcraft;
 
-public class Interface {
-
+interface Repairable {
 }
